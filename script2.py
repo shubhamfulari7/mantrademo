@@ -1,0 +1,6 @@
+inputFilePath = input("Enter File path")
+statusCode = input("Enter Status code")
+file = open(inputFilePath, "r")
+data = file.read()
+count_of_status = data.count(statusCode)
+print('Count of Status Code',statusCode,'in file is', count_of_status)
