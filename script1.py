@@ -7,4 +7,4 @@ l2.append(l[4][1])
 for i in l3:
     if i not in l2:
         print(i,"is missing")
-print("OK")
+
